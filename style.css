@@ -131,7 +131,7 @@ section{
 
 .updates img{
   margin-top: 4vh;
-  margin-bottom: 8vh;
+  margin-bottom: 14vh;
   width: 80%;
 }
 
@@ -181,14 +181,14 @@ p{
 
 .about-div{
   background: #f9f9f9;
-  height: 50vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .about > p{
-  font-size: 1.2rem !important;
+  font-size: 1.1rem !important;
 }
 
 /* footer-section */
