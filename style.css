@@ -104,9 +104,10 @@ section{
 }
 
 .fields{
-  margin-top: -6em;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-top: -4em;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  
 }
 
 .field-name{
@@ -116,7 +117,12 @@ section{
   border-radius: 10px;
   margin-bottom: 25px;
   padding-top: 40px;
-  line-height: 1.8;
+  padding-bottom: 40px;
+  line-height: 1.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .field-icons{
@@ -146,6 +152,9 @@ section{
 .club-box{
   height: 130px;
   border-radius: 10px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background: linear-gradient(135deg, var(--c1, rgba(209,51,255,1);), var(--c2, rgba(26,251,148,1);) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
 }
 
 #programming{
@@ -188,7 +197,7 @@ p{
 }
 
 .about > p{
-  font-size: 1.1rem !important;
+  font-size: 1.2rem !important;
 }
 
 /* footer-section */
@@ -205,11 +214,11 @@ p{
   height: 32vh;
   box-shadow: 5px 10px 24px #888888;
   border-radius: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 34px;
   margin-top: -4em;
   line-height: 1.8;
   color: white;
-  padding: 30px;
+  padding: 40px;
   font-weight: 500 !important;
 }
 
@@ -272,7 +281,7 @@ p{
     font-size: 2rem;
   }
   .fields{
-    margin-top: -6em;
+    margin-top: -4.5em;
     margin-left: 4vw;
     margin-right: 4vw;
   }
@@ -283,6 +292,13 @@ p{
 
   p{
     font-size: 1.3rem;
+  }
+  .about-div{
+    height: 65vh;
+  }
+
+  .about > p{
+    font-size: 1.05rem !important;
   }
 
   .grid-container{

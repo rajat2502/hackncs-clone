@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  setTimeout(showContent(), 10000);
+  setTimeout(showContent(), 5000);
 })
 
 function showContent(){
